@@ -1,23 +1,20 @@
-# Nextra Docs Template 
+# Official OpenTradeNet Docs projec
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+OpenTradeNet is an **open and free** platform designed to provide advanced **automated trading** tools to a wide audience. Our goal is to make trading technologies and strategies, typically reserved for professionals, accessible to everyone by offering an intuitive and powerful ecosystem.
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+## Key Features
+- **Automated trading**: Use bots and advanced algorithms to execute trades based on predefined strategies.
+- **Support for traditional assets and cryptocurrencies**: Compatible with various financial markets.
+- **Intuitive interface**: Visual tools and interactive dashboards to monitor and optimize strategies.
+- **Integration with brokers and exchanges**: Support for major trading platforms.
+- **Open-source**: The community can contribute to improvements and extensions of the platform.
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
-
-## Quick Start
-
-Click the button to clone this repository and deploy it on Vercel:
-
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
-
-## Local Development
-
-First, run `pnpm i` to install the dependencies.
-
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
-
-## License
-
-This project is licensed under the MIT License.
+## Technologies Used
+- **Next.js 15** with **App Router**
+- **TypeScript** for a robust and typed codebase
+- **TailwindCSS** for modern and responsive styling
+- **MUI Material** for advanced UI components
+- **lightweight-charts by TradingView** for interactive charts
+- **NextAuth v5** for secure authentication
+- **Redis (Vercel Storage)** for session and cache management
+- **PostgreSQL** for data management
