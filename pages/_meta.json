@@ -1,15 +1,20 @@
 {
   "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "gridtrading": "Grid Trading",
   "about": {
     "title": "About",
     "type": "page"
   },
   "contact": {
-    "title": "Contact ↗",
+    "title": "Contact us",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "mailto:info@openradenet.fyi",
+    "newWindow": true
+  },
+  "main site": {
+    "title": "Main WebSite",
+    "type": "page",
+    "href": "https://opentradenet.fyi",
     "newWindow": true
   }
 }
