@@ -1,3 +1,38 @@
+import CenteredImage from "/components/utils";
+
 # Introduction
 
+Grid trading involves buying a set of grid levels. You buy a grid level if the price falls below a certain threshold and you do not already own that grid level. 
+Conversely, you sell a grid level if the price rises above a certain threshold and you own that grid level.
+
+<img src="/gridexample.png" alt="Grid Trading Chart" width="450"/>
+
+In the image above, an example of markers is shown that highlights when a grid is bought or sold.
+
 The Grid Calculator is an essential tool that allows users to set up their grid trading strategy by calculating the grid levels based on their input parameters.
+It is divided into four sections:
+
+1. **Parameter Setup**: In this section, you set up the parameters for your grid trading strategy.
+2. **Grid Results**: This section displays the results of the grid in a tabular format.
+3. **Summary**: The summary section provides an overview of the calculated investment values.
+4. **Backtesting**: In the final section, you can perform backtesting to evaluate the quality of the generated strategy.
+
+Each section is designed to provide you with comprehensive tools and insights to optimize your grid trading experience.
+
+## Parameter Setup
+
+<img src="/gridparameter.png" alt="Grid Trading Chart" width="450"/>
+
+To calculate a grid, you need to set five mandatory values:
+
+1. **Total Investment**: This is the total amount of investment that the user wants to allocate.
+2. **Current Price**: The current price of the asset that the user wants to purchase.
+3. **Min Price**: The minimum price level within which the user wants to perform buy and sell operations.
+4. **Max Price**: The maximum price level within which the user wants to perform buy and sell operations.
+5. **Number of Grids**: The number of grid levels or intervals into which the user wants to divide the buy and sell strategy.
+
+These parameters are essential for defining the grid trading strategy and ensuring that the buy and sell orders are placed systematically within the specified price range.
+
+In the example shown in the image, a user wants to propose an investment of $10,000 to be executed using a grid strategy. 
+Currently, the price of the asset they want to purchase is $1.23, and it is expected that over time this price may vary within a range from $0.95 to $3. 
+The $10,000 will be invested by dividing it into 10 lots or "grids" that will be bought and sold over time.
