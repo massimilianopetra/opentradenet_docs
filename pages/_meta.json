@@ -9,13 +9,13 @@
   "contact": {
     "title": "Contact us",
     "type": "page",
-    "href": "mailto:info@opentradenet.fyi",
+    "href": "mailto:info@opentradenet.org",
     "newWindow": true
   },
   "main site": {
     "title": "Main WebSite",
     "type": "page",
-    "href": "https://opentradenet.fyi",
+    "href": "https://opentradenet.org",
     "newWindow": true
   }
 }
